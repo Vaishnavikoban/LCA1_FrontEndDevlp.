@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us | Gothic Jewelry</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+
+        header {
+            background: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h1 {font-family: 'Gothic Medium';
+            font-style: italic;
+            text-align: center;
+            color:#a00030}
+
+        h2 {font-family: 'Gothic Medium';
+            text-align: center;
+            margin-left: auto;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d00050;
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+            background: #222;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        fieldset {
+    border: 1px solid #800020;
+    padding: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+
+        input, textarea {
+            text-align: center;
+            margin: 0 auto;
+            width: 95%;
+            padding: 8px;
+            margin-top: 5px;
+            background: #333;
+            border: none;
+            color: white;
+        }
+
+        input[type="submit"] 
+        {
+            background: #800020;
+            cursor: pointer;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 10px;
+            padding: 20px;
+            background: #1a1a1a;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eternal Goth</h1>
+        <nav>
+            <ul>
+                <li><a href="Ethernal Goth homepage.html">Home</a></li>
+                <li><a href="shop now page.html">Shop</a></li>
+                <li><a href="Contact page.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Contact Form</h2>
+            <form>
+                <fieldset>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone">
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <input type="submit" value="Submit" style="display: block; margin: 20px auto; padding: 10px;">
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gothic Jewelry. All rights reserved.</p>
+    </footer>
+</body>
+</html>

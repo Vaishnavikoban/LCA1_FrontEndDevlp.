@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gothic Jewelry | Shop Now</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+       
+        h1 {font-family: 'Gothic Medium';
+            font-style: italic;
+            text-align: center;
+            color:#a00030}
+        
+        header {
+            background: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        h2 {font-family: 'Gothic Medium';
+        margin: 20px};
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d00050;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .product {
+            background: #222;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+            border: 1px solid #800020;
+            box-shadow: 0px 0px 8px rgba(128, 0, 32, 0.5);
+        }
+
+        .product img {
+            width: 80%;
+            height: 60;
+            border-radius: 5px;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px rgba(128, 0, 32, 0.7);
+        }
+
+        .btn {
+            display: inline-block;
+            background: #800020;
+            padding: 10px 20px;
+            margin-top: 10px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        .btn:hover {
+            background: #a00030;
+            transform: scale(1.05);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1a1a1a;
+            margin-top: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eternal Goth</h1>
+        <nav>
+            <ul>
+                <li><a href="Ethernal Goth homepage.html">Home</a></li>
+                <li><a href="shop now page.html">Shop</a></li>
+                <li><a href="Contact page.html">Contact</a></li>
+            </ul>
+        </nav>  
+    </header>
+
+    <main>
+        <section class="container">
+            <h2>Shop Our Gothic Collection</h2>
+            <p>Browse our exclusive selection of handcrafted Gothic jewelry.</p>
+
+            <div class="grid-container">
+                <div class="product">
+                    <img src="https://i.ebayimg.com/images/g/6U4AAOSw4TZg-ntD/s-l1200.webp" alt="Gothic Ring">
+                    <h3>Raven Skull Ring</h3>
+                    <p>Rs. 250/-</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/8162103/r/il/ff93e5/1268972361/il_570xN.1268972361_1u2e.jpg" alt="Gothic Necklace">
+                    <h3>Black Rose Pendant</h3>
+                    <p>Rs. 300/-</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/8476757/r/il/31aa3c/2203827338/il_570xN.2203827338_jr09.jpg" alt="Gothic Bracelet">
+                    <h3>Dark Obsidian Bracelet</h3>
+                    <p>Rs. 350/-</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://i.ebayimg.com/00/s/MTIwMFgxNjAw/z/3pMAAOSwySFZhHLF/$_57.JPG?set_id=8800005007" alt="Gothic Earrings">
+                    <h3>Moonlit Dragon Earrings</h3>
+                    <p>Rs. 100/-</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/32445017/r/il/28a2a6/4091926872/il_570xN.4091926872_oryt.jpg" alt="Gothic Pendant">
+                    <h3>Silver Crescent Pendant</h3>
+                    <p>Rs. 200/-</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+                <div class="product">
+                    <img src="https://i.pinimg.com/736x/84/ee/6a/84ee6a7e94d033136b786f8951050153.jpg" alt="Gothic Choker">
+                    <h3>Velvet Lace Choker</h3>
+                    <p>Rs. 150/-</p>
+                    <a href="#" class="btn">Add to Cart</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gothic Jewelry. All rights reserved.</p>
+    </footer>
+</body>
+</html>

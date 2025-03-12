@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gothic Jewelry | Home</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        h1 {font-family: 'Gothic Medium';
+            font-style: italic;
+            align:'center';
+            color:#a00030}
+        
+            header {
+            background: #1a1a1a;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h2 {font-family: 'Gothic Medium';
+            margin: 20px};
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #e0e0e0;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #d00050;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 10px;
+            background: url('https://michellevaladon.com/cdn/shop/articles/Silver-and-White-Gold-Gothic-Jewelry.jpg?v=1710864315') no-repeat center center/cover;
+            margin-bottom: 40px;
+        }
+
+        .hero h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .btn {
+            display: inline-block;
+            background: #800020;
+            padding: 12px 24px;
+            margin-top: 20px;
+            color: white;
+            text-decoration: none;
+            transition: background 0.3s ease, transform 0.2s ease;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #a00030;
+            transform: scale(1.05);
+        }
+
+        .container {
+            max-width: 100x;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .product {
+            background: #222;
+            padding: 15px;
+            text-align: center;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+            border: 1px solid #800020;
+            box-shadow: 0px 0px 8px rgba(128, 0, 32, 0.5);
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .product:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 0px 15px rgba(128, 0, 32, 0.7);
+        }
+
+        .why-choose {
+            padding: 40px;
+            background: #1a1a1a;
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        .why-choose h2 {
+            color: #d00050;
+            margin-bottom: 20px;
+        }
+
+        .why-choose ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .why-choose li {
+            font-size: 1.2em;
+            margin: 10px 0;
+            position: relative;
+        }
+
+        .why-choose li::before {
+            content: "✓";
+            color: #d00050;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .testimonials {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .testimonial {
+            background: #222;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            box-shadow: 0px 0px 8px rgba(128, 0, 32, 0.5);
+        }
+
+        .testimonial p {
+            font-style: italic;
+        }
+
+        .testimonial strong {
+            font-style: italic;
+            display: block;
+            margin-top: 10px;
+            color: #d00050;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1a1a1a;
+            margin-top: 40px;
+        }
+
+        @media screen and (max-width: 768px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+
+            .hero h2 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Eternal Goth</h1>
+        <nav>
+            <ul>
+                <li><a href="Ethernal Goth homepage.html">Home</a></li>
+                <li><a href="shop now page.html">Shop</a></li>
+                <li><a href="Contact page.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Dark Elegance, Timeless Beauty</h2>
+            <p>Handcrafted Gothic jewelry that tells a story.</p>
+            <a href="#featured" class="btn">Shop Now</a>
+        </section>
+
+        <section class="container">
+            <h2>Our Featured Collection</h2>
+            <div class="grid-container">
+                <div class="product">
+                    <img src="https://i.ebayimg.com/images/g/6U4AAOSw4TZg-ntD/s-l1200.webp" alt="Gothic Ring" width="40" height="400">
+                    <h3>Raven Skull Ring</h3>
+                    <p>Rs. 250/-</p>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/8162103/r/il/ff93e5/1268972361/il_570xN.1268972361_1u2e.jpg" alt="Gothic Necklace" width="80" height="400">
+                    <h3>Black Rose Pendant</h3>
+                    <p>Rs. 300/-</p>
+                </div>
+                <div class="product">
+                    <img src="https://i.etsystatic.com/8476757/r/il/31aa3c/2203827338/il_570xN.2203827338_jr09.jpg" alt="Gothic Bracelet" width="80" height="400">
+                    <h3>Dark Obsidian Bracelet</h3>
+                    <p>Rs. 350/-</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose">
+            <h2>Why Choose Us?</h2>
+            <ul>
+                <li>Authentic handcrafted Gothic jewelry</li>
+                <li>High-quality metals and stones</li>
+                <li>Worldwide shipping available</li>
+                <li>Custom-made designs just for you</li>
+            </ul>
+        </section>
+
+        <section class="testimonials">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial">
+                <p>"Absolutely love my new Raven Skull Ring! It's bold, unique, and stunning."</p>
+                <strong>- Ameya, Maharashtra</strong>
+            </div>
+            <div class="testimonial">
+                <p>"Great craftsmanship and amazing details. I wear my necklace every day!"</p>
+                <strong>- Sharayu, Maharashtra</strong>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Gothic Jewellery. All rights reserved.</p>
+    </footer>
+</body>
+</html>
